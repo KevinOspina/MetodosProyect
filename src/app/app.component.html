@@ -1,0 +1,79 @@
+<div id="container-mod">
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Metodos Numericos Solver</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Interpolación
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sistemas de ecuaciones lineales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Derivadas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Integrales definidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Regresión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ecuaciones Diferenciales Ordinarias</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div style="text-align:center; margin-top: 35px;">
+      <h1> </h1>
+    </div>
+
+
+
+    <div style="text-align:center">
+      
+      <h1>
+        <strong>Bienvenido!</strong> 
+      </h1> 
+      
+      <h2>
+        En esta aplicación podrás ver soluciones a problemas de Metodos Numericos
+      </h2>
+    </div>
+
+    <div>
+      <button (click)="sayHi()">Say Hi</button>
+      <span>Server data: {{serverData | json}}</span>
+    </div>
+
+    <div>
+      <button (click)="getAllEmployees()">All Employees</button>
+      <span>All Employee data: {{employeeData | json}}</span>
+    </div>
+
+    <div>
+      <button (click)="getEmployee()">Employees By ID</button>
+      <span>Employee data: {{employee | json}}</span>
+    </div>
+
+  </div>
+
+
+
+</div>
